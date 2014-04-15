@@ -1,0 +1,19 @@
+session:
+  name: "py"
+  windows:
+    - name: "proj"
+      clear: true
+      root: ""
+      filters:
+        before:
+          - "workon"
+      panes:
+        - cmd: ""
+    - name: "tests"
+      clear: true
+      root: ""
+      filters:
+        before:
+          - "workon"
+      panes:
+        - cmd: "make"
